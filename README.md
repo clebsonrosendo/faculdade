@@ -1,2 +1,2 @@
-# faculdade
+# Faculdade
 Arquivos de estudo
