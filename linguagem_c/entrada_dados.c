@@ -20,7 +20,7 @@ int main() {
     char genero = 'F';
     char nome[50];
 
-
+    // Entrada de dados
     printf("Digite seu nome: ");
     fgets(nome, 50, stdin);
     strtok(nome, "\n");
@@ -34,7 +34,7 @@ int main() {
     printf("Digite o valor da altura: ");
     scanf("%lf", &altura);
 
-
+    // Saida de dados
     printf("NOME: %s\n", nome);
     printf("IDADE: %d\n", idade);
     printf("SALARIO: %.2lf\n", salario);
