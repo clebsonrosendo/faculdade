@@ -1,0 +1,19 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">DESCRICAO</th>
+      <th scope="col">PRECO (R$)</th>
+    </tr>
+  </thead>
+  <tbody>
+<?php
+    foreach ($this->view->dados as $indice => $produto) {
+        echo '<tr>';
+        echo '<th scope="row">'.$produto['id'].'</th>';
+        echo '<td>'.$produto['descricao'].'</td>';
+        echo '<td>'.$produto['preco'].'</td>';
+        echo '</tr>';
+    }
+
+?>
