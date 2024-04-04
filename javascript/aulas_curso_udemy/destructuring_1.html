@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        //Destructuring
+        let frutas = ['abacaxi', 'uva', 'pera', 'mamão']
+        //let [a, b, , c] = frutas
+        let coisas = [frutas, ['José', 'Maria']]
+        let [[n2]] = coisas
+        console.log(n2)
+    </script>
+</head>
+
+<body>
+    <div id="output"></div>
+</body>
+
+</html>
